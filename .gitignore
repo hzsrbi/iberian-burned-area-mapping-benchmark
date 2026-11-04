@@ -1,0 +1,65 @@
+# Sensitive local configuration and credentials
+.env
+.env.*
+!.env.example
+*service-account*.json
+*credentials*.json
+*credential*.json
+*token*.json
+*.pem
+*.key
+
+# Local inputs and derived geospatial products
+*.gpkg
+*.gpkg-shm
+*.gpkg-wal
+*.tif
+*.tiff
+*.vrt
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.parquet
+*.feather
+*.npy
+*.npz
+
+# Models, checkpoints, generated experiment products
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.keras
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.safetensors
+models/
+eo_data/
+sampling/
+model_results/
+print_layouts/
+lightning_logs/
+wandb/
+runs/
+outputs/
+
+# Scratch/data files (use explicit force-add only for audited public examples)
+*.csv
+*.tsv
+*.log
+*.zip
+
+# Notebook / Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db

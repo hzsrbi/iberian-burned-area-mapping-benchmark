@@ -1,0 +1,23 @@
+# Core dependencies; versions are intentionally ranges, not an independently tested lockfile.
+# Use a compatible Python/GPU runtime for TensorFlow and PyTorch together.
+notebook>=7
+ipykernel>=6
+numpy>=1.26
+pandas>=2.2
+scipy>=1.12
+geopandas>=0.14
+pyogrio>=0.9
+shapely>=2.0
+pyproj>=3.6
+rasterio>=1.3
+affine>=2.4
+matplotlib>=3.8
+scikit-learn>=1.4
+joblib>=1.3
+psutil>=5.9
+earthengine-api>=1.0
+# Required for the U-Net and Siamese implementations
+tensorflow>=2.16
+# Required for the Prithvi model definitions and related data loaders
+torch>=2.2
+lightning>=2.3

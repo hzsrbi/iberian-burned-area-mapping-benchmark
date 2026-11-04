@@ -1,0 +1,10 @@
+# Optional dependencies for Prithvi frozen-backbone / LoRA experiments.
+# TerraTorch version reflects the version required in the original notebook.
+# Match torch/CUDA and package versions to your GPU runtime before installation.
+terratorch==1.2.13
+peft
+lightly
+aenum
+torchao==0.17.0
+lightning-utilities
+torchmetrics

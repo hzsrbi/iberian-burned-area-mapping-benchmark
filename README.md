@@ -4,8 +4,6 @@
 
 This repository provides the research notebooks for comparing burned-area mapping approaches based on **Sentinel-2 (S2)**, **Sentinel-1 (S1)**, and several machine-learning methods: **Random Forest**, **U-Net**, **Siamese change-detection networks**, and **Prithvi** with frozen-backbone and LoRA adaptation. The workflow covers reference polygon preparation, Earth observation (EO) image collection and exporting, common sampling and event-level data splitting, model training, held-out-fire evaluation, and accuracy/efficiency summaries.
 
-> **Reproducibility note:** These notebooks are a cleaned public release of a research workflow. They have been checked for Python syntax and obvious exposed identifiers, but **have not been re-executed end to end** with the original private data, Google Earth Engine account, saved checkpoints, and GPU environment. You must configure inputs and validate the resulting outputs before treating this repository as fully reproducible.
-
 ## Contents
 
 | File | Purpose |
